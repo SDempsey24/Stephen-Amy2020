@@ -1,6 +1,6 @@
 body{
     overflow-x: hidden;
-    background-color: #87CEEB;
+    background-color: #194f2b;
     
 }
 
@@ -12,6 +12,11 @@ body{
 @font-face{
     font-family: briasco_rustic;
     src: url(C:/Users/steph/Documents/VSCode/Briasco-Rustic.otf);
+}
+
+@font-face{
+    font-family : MeathFLF;
+    src: url(C:/Users/steph/Documents/VSCode/MeathFLF.otf);
 }
 
 /*----------Tips Page------------*/
@@ -57,6 +62,7 @@ header {
     max-height: 100%;
     height: 100%;
     width: 1050px;
+    overflow:hidden;
     /*
     background-image: url(C:/Users/steph/Downloads/oldrustic.jpg);
     background-repeat: no-repeat;
@@ -82,16 +88,16 @@ header {
 }
 
 .navbar a{
-    font-family: Briasco_Rustic, Helvetica, Arial, sans-serif;
+    font-family: MeathFLF, Helvetica, Arial, sans-serif;
     font-size: 30px;
-    color: black;
+    color: white;
     text-decoration: none;
     display: block;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 .navbar a:hover{
-    color: white;
+    color: rgb(252, 249, 67);
 }
 
 ul{
@@ -107,6 +113,9 @@ ul li{
 a:hover{
     cursor: pointer;
 }
+
+/*----------- Symbols ---------- */
+
 
 h1{
     position: absolute;
@@ -144,7 +153,7 @@ h4{
 
 
 #ourStory p{
-    font-family: Briasco_Rustic, Helvetica, Arial, sans-serif;
+    font-family: MeathFLF, Helvetica, Arial, sans-serif;
     line-height: 1.5em;
     font-size: 23px;
     padding: 10px 0px 0px 0px;
@@ -159,15 +168,14 @@ h4{
     
 }
 
-
 .venue-description p{
     width: 150px;
     height: 100%;
     position: absolute;
     right: 40px;
     top: 1500px;
-    color: black;
-    font-family: Briasco_Rustic, Helvetica, Arial, sans-serif;
+    color: white;
+    font-family: MeathFLF, Helvetica, Arial, sans-serif;
 }
 
 .venue-description a{
@@ -182,7 +190,7 @@ h4{
 
 #eventDetails{
   
-  font-family: Briasco_Rustic, Helvetica, Arial, sans-serif;
+  font-family: MeathFLF, Helvetica, Arial, sans-serif;
   
 }
 
@@ -207,7 +215,7 @@ h4{
     bottom: 0px;
     color: black;
     font-size: 27px;
-    font-family: Briasco_Rustic, Helvetica, Arial, sans-serif;
+    font-family: MeathFLF, Helvetica, Arial, sans-serif;
     
 }
 
@@ -217,9 +225,9 @@ h4{
     font-size: 30px;
     margin-top: 70px;
     margin-bottom: 300px;
-    font-family: Briasco_Rustic, Helvetica, Arial, sans-serif;
+    font-family: MeathFLF, Helvetica, Arial, sans-serif;
     text-align: center;
-    
+    display: inline-block;
 }
 
 
@@ -236,7 +244,8 @@ h4{
       }
 
 #footer{
-    font-size: 15px;
-    padding-top: 70px;
+    font-size: 20px;
+    font-family: MeathFLF, Arial, Helvetica, sans-serif;
+    padding-top: 100px;
     text-align: center;
 }
